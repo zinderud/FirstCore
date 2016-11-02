@@ -1,0 +1,11 @@
+﻿ <div ><h3>Kitap listesi</h3></div>
+
+<ul>
+    @foreach (var kitap in Model)
+    {
+        <li>@kitap.KitapId</li>
+        <li>@kitap.KitapAdi</li>
+        <li>@kitap.Tur</li>
+    }
+</ul>
+
