@@ -4,10 +4,9 @@
 /// <reference path="../script/basic types.js" />
 /// <reference path="../script/interfaces.js" />
 /// <reference path="../script/variable declarations.js" />
-/// <reference path="js/app.js" />
-/// <reference path="js/basic types.js" />
+/// <reference path="js/app.min.js" />
+/// <reference path="js/basic types.min.js" />
 /// <reference path="js/site.min.js" />
-/// <reference path="js/variable declarations.js" />
 /// <reference path="lib/bootstrap/dist/js/bootstrap.js" />
 /// <reference path="lib/jquery/dist/jquery.js" />
 /// <reference path="lib/jquery-validation/dist/jquery.validate.js" />

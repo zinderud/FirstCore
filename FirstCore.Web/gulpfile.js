@@ -17,7 +17,7 @@
 
 
 
-
+var del = require('del');
 
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
@@ -27,6 +27,11 @@ var merge = require('merge2');  // Requires separate installation
 var paths = {
     scripts: ['script/**/*.js', 'script/**/*.ts', 'script/**/*.map'],
 };
+
+
+gulp.task('clean', function () {
+    return del(['wwwroot/js/**/*']);
+});
 gulp.task('script', function () {
     var tsResult = gulp.src(paths.scripts)
         .pipe(ts({
