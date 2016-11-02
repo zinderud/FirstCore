@@ -1,5 +1,9 @@
 ﻿/// <autosync enabled="true" />
 /// <reference path="../gulpfile.js" />
+/// <reference path="../script/app.js" />
+/// <reference path="../script/basic types.js" />
+/// <reference path="../script/interfaces.js" />
+/// <reference path="../script/variable declarations.js" />
 /// <reference path="js/app.js" />
 /// <reference path="js/basic types.js" />
 /// <reference path="js/site.min.js" />

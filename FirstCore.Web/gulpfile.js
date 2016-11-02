@@ -1,4 +1,4 @@
-﻿/// <binding BeforeBuild='script' />
+/// <binding BeforeBuild='script' Clean='script' />
 //var gulp = require('gulp');
 //var del = require('del');
 

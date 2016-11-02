@@ -32,10 +32,11 @@ emindegilim.ifItExists();
 function hatamesaji() {
     alert("hata mesajı veriyor");
 }
-// hiçbirşey atanmamış değişken
-var u = undefined;
-var n = null;
-// Function returning never must have unreachable end point
-function error(message) {
-    throw new Error(message);
-}
+//// hiçbirşey atanmamış değişken
+//let u: undefined = undefined;
+//let n: null = null;
+//// Function returning never must have unreachable end point
+//function error(message: string): never {
+//    throw new Error(message);
+//} 
+//# sourceMappingURL=Basic Types.js.map

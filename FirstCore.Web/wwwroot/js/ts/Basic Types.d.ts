@@ -3,7 +3,7 @@ declare let decimal: number;
 declare let hex: number;
 declare let color: string;
 declare let adsoyad: string;
-declare let yas: 255;
+declare let yas: number;
 declare let birlikte: string;
 declare let liste: number[];
 declare let x: [string, number];

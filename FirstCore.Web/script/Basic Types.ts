@@ -57,11 +57,11 @@ function  hatamesaji():void{
     alert("hata mesajı veriyor");
 }
 
-// hiçbirşey atanmamış değişken
-let u: undefined = undefined;
-let n: null = null;
+//// hiçbirşey atanmamış değişken
+//let u: undefined = undefined;
+//let n: null = null;
 
-// Function returning never must have unreachable end point
-function error(message: string): never {
-    throw new Error(message);
-}
+//// Function returning never must have unreachable end point
+//function error(message: string): never {
+//    throw new Error(message);
+//}
