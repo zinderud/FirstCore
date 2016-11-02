@@ -59,7 +59,7 @@ namespace FirstCore.Web
             }
 
             app.UseStaticFiles();
-
+            app.UseDefaultFiles();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
