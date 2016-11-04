@@ -31,14 +31,7 @@ function matriksToplami(matrix) {
     }
     return sum;
 }
-function fdsa(input) {
-    var a = 100;
-    if (input) {
-        var b = a + 1;
-        var c = a + 1;
-        return b;
-    }
-    // return b; let hata veririr çünkü {} içinde local değişken
-    return c;
+for (var i = 0; i < 10; i++) {
+    setTimeout(function () { console.log(i); }, 100 * i);
 }
 //# sourceMappingURL=Variable Declarations.js.map

@@ -32,7 +32,7 @@ emindegilim.ifItExists();
 function hatamesaji() {
     alert("hata mesajı veriyor");
 }
-//// hiçbirşey atanmamış değişken
+// hiçbirşey atanmamış değişken
 //let u: undefined = undefined;
 //let n: null = null;
 //// Function returning never must have unreachable end point
