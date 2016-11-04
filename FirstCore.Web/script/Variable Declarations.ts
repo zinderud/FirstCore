@@ -49,17 +49,6 @@ function matriksToplami(matrix:number[][])
     return sum;
 }
 
-
-
-function fdsa(input: boolean) {
-
-
-    let a=100;
-    if (input) {
-        let b = a + 1;
-        var c = a + 1;
-        return b;
-    }
-   // return b; let hata veririr çünkü {} içinde local deðiþken
-    return c;
+for (var i = 0; i < 10; i++) {
+    setTimeout(function() { console.log(i); }, 100 * i);
 }

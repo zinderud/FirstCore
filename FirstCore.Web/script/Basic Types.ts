@@ -57,7 +57,7 @@ function  hatamesaji():void{
     alert("hata mesajı veriyor");
 }
 
-//// hiçbirşey atanmamış değişken
+// hiçbirşey atanmamış değişken
 //let u: undefined = undefined;
 //let n: null = null;
 

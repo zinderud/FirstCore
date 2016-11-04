@@ -1,6 +1,6 @@
-/// <binding BeforeBuild='script' Clean='script' />
+﻿/// <binding BeforeBuild='script' />
 //var gulp = require('gulp');
-//var del = require('del');
+var del = require('del');
 
 ////yol
 //var paths = {
@@ -17,7 +17,7 @@
 
 
 
-var del = require('del');
+
 
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
@@ -27,10 +27,8 @@ var merge = require('merge2');  // Requires separate installation
 var paths = {
     scripts: ['script/**/*.js', 'script/**/*.ts', 'script/**/*.map'],
 };
-
-
 gulp.task('clean', function () {
-    return del(['wwwroot/js/**/*']);
+    return del(['wwwroot/js/**/*.ts','wwwroot/js/**/*.js', 'script/**/*.js', 'script/**/*.map']);
 });
 gulp.task('script', function () {
     var tsResult = gulp.src(paths.scripts)
