@@ -4,6 +4,7 @@
 /// <reference path="../script/basic types.js" />
 /// <reference path="../script/classe.js" />
 /// <reference path="../script/interfaces.js" />
+/// <reference path="../script/objects.js" />
 /// <reference path="../script/variable declarations.js" />
 /// <reference path="bjs/site.js" />
 /// <reference path="js/app.js" />

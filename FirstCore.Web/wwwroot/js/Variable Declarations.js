@@ -25,8 +25,8 @@ function matriksToplami(matrix) {
     var sum = 0;
     for (var i = 0; i < matrix.length; i++) {
         var currrentRow = matrix[i];
-        for (var i = 0; i < currrentRow.length; i++) {
-            sum += currrentRow[i];
+        for (var z = 0; z < currrentRow.length; z++) {
+            sum += currrentRow[z];
         }
     }
     return sum;
