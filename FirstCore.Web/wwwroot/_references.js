@@ -3,6 +3,7 @@
 /// <reference path="../script/app.js" />
 /// <reference path="../script/basic types.js" />
 /// <reference path="../script/classe.js" />
+/// <reference path="../script/file.js" />
 /// <reference path="../script/interfaces.js" />
 /// <reference path="../script/objects.js" />
 /// <reference path="../script/variable declarations.js" />

@@ -77,3 +77,55 @@ square.sideLength = 12;
 square.color = "blue";
 
 
+
+interface IEngine {
+
+    start(calback:(startStatus:boolean,engineTyp:string)=>void):void
+}
+
+class mec implements IEngine{
+    constructor(public horse: number, public engineTyp: string) { };
+    dur: boolean;
+    start(calback: (startStatus: boolean, engineTyp: string) => void) {
+        window.setTimeout(() => {
+            calback(true, this.engineTyp);
+        }, 1000);
+    }
+
+ 
+}
+
+
+class sadess {
+
+    str: string;
+    serd: number;
+    constructor(a: string, b: number) {
+        this.serd = b;
+        this.str = a;}
+}
+
+  class sadee extends sadess   {
+      constructor(a:string,b:number) {
+          super(a,b);
+
+      }
+}
+
+
+  interface sadeli {
+      olmali: string;
+  }
+
+  export default class sad<T extends sadeli>{
+      public _item: Array<T> = new Array<T>();
+
+      ekle(item: T): void {
+          this._item.push(item);
+      }
+      bul(varw: T) {
+
+          let k = this._item.filter(x => x.olmali == varw.olmali);
+      }
+
+  }
