@@ -129,3 +129,23 @@ class sadess {
       }
 
   }
+
+  interface Named {
+      name: string;
+  }
+
+  let x: Named;
+  // y's inferred type is { name: string; location: string; }
+  let y = { name: "Alice", location: "Seattle" };
+  x = y;
+
+  function greet(n: Named) {
+      alert("Hello, " + n.name);
+  }
+  greet(y); //
+
+  let ax = (a: number) => 0;
+  let ay = (b: number, s: string) => 0;
+
+ ay = ax; // OK
+ 
